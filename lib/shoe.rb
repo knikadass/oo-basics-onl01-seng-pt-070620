@@ -1,6 +1,6 @@
 class Show
   def initialize(brand)
-    @brand = brand
+    @brand.new = brand
   end
  
   def brand
