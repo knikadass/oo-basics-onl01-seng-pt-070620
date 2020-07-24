@@ -1,38 +1,20 @@
-class Show
+cclass Shoe 
   def initialize(brand)
-    @brand.new = brand
+    @brand = brand
+  end 
+  
+  attr_accessor :color, :size, :material
+  attr_reader :brand
+  
+  def cobble 
+    puts "Your shoe is as good as new!" 
+  end 
+  
+ def condition=(condition)
+  @condition = condition
+  end 
+
+  def condition
+    @condition = "new"
   end
- 
-  def brand
-    @brand
-  end
- 
-  def author=(author)
-    @author = author
-  end
- 
-  def author
-    @author
-  end
- 
-  def page_count=(num)
-    @page_count = num
-  end
- 
-  def page_count
-    @page_count
-  end
- 
-  def genre=(genre)
-    @genre = genre
-  end
- 
-  def genre
-    @genre
-  end
- 
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
-  end
- 
 end
