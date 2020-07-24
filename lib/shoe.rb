@@ -18,3 +18,4 @@ cclass Shoe
     @condition = "new"
   end
 end
+end
